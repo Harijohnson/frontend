@@ -63,14 +63,14 @@ typeof function
 // message.innerHTML =' Your Are seeing in js ';
 
 
+// role a dice 
+// function roledice() {
+//     let dice =Math.floor( Math.random() * 6) +1;
+//     console.log(dice)
+//     let result = document.getElementById('dice')
+//     return  result.innerHTML = " The Dice Number is " +dice ; 
 
-function roledice() {
-    let dice =Math.floor( Math.random() * 6) +1;
-    console.log(dice)
-    let result = document.getElementById('dice')
-    return  result.innerHTML = " The Dice Number is " +dice ; 
-
-}
+// }
 
 
 
