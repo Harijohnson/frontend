@@ -59,12 +59,18 @@ typeof function
 //geting elements 
 
 
-let message =  document.getElementById('message');
-message.innerHTML =' Your Are seeing in js ';
+// let message =  document.getElementById('message');
+// message.innerHTML =' Your Are seeing in js ';
 
 
 
+function roledice() {
+    let dice =Math.floor( Math.random() * 6) +1;
+    console.log(dice)
+    let result = document.getElementById('dice')
+    return  result.innerHTML = " The Dice Number is " +dice ; 
 
+}
 
 
 
