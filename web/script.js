@@ -51,3 +51,6 @@ typeof function
 //let num = prompt('Entera a number')
 //console.log(num+12)  // 123+12    op  =  12312
 //console.log(Number(num)+12)  //     123+12   op =    1245
+
+
+//new changes
