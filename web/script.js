@@ -1,4 +1,4 @@
-console.log('happy new year')
+// console.log('happy new year')
 //alert('new year')
 // comment
 /*  long line comment 
@@ -7,21 +7,21 @@ in this code */
 
 // varible
 
-let score = 0  // inetilazation
+// let score = 0  // inetilazation
 
-score = 10  //asignment
+// score = 10  //asignment
 
-console.log('score: ' + score)
+// console.log('score: ' + score)
 
-let amt =20000
+// let amt =20000
 
-amt=10  // this is posible in here
-console.log('total amt in hand is ' + amt)
+// amt=10  // this is posible in here
+// console.log('total amt in hand is ' + amt)
 
 
-const pi= 3.17
+// const pi= 3.17
 // pi=232   this is not posible 
-console.log('pi: ' + pi)
+// console.log('pi: ' + pi)
 
 //operatorss
 /*
@@ -54,3 +54,19 @@ typeof function
 
 
 //new changes
+
+
+//geting elements 
+
+
+let message =  document.getElementById('message');
+message.innerHTML =' Your Are seeing in js ';
+
+
+
+
+
+
+
+
+
