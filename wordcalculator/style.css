@@ -1,5 +1,7 @@
 html,
 body{
+    width: 1536px;
+    height: 750px;
     margin: 0%;
    font-family: 'Poppins', sans-serif;
    background-color:#f5e8ba;
@@ -19,9 +21,9 @@ h2{
 input{
     border-radius: 5px;
     border: 2px solid black ;
-    margin-top:30px;
-    height:2em;
-    width:250px;
+    margin-top:10px;
+    height:4em;
+    width:300px;
     padding-left:10px;
 }
 
@@ -29,11 +31,12 @@ input:active{
     border:none;
 }
 #wrapper{
-    height:300px;
-    width:400px;
-    margin:200px auto;
+    height:500px;
+    width:545px;
+    margin-top:75px;
+    margin-left: 450px;
     background-color:#1f2029;
-    border-radius:10px;
+    border-radius:17px;
     padding:30px;
 
 }

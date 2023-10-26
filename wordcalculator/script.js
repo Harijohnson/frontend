@@ -4,8 +4,8 @@ function count(){
     // console.log(words);
     let count = words.split(" ")
     count = count.length
-    console.log(count)
+    // console.log(count)
     let result = document.getElementById("result")
-    result.innerHTML = count, ' Total words'
+    result.innerHTML =  'Total words  '+ count;
     return  result
 }
