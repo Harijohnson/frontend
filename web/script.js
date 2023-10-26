@@ -185,7 +185,22 @@ console.log(jo)
 let joint = [ ...fa,...se ]
 console.log(joint) //  way of joint array
 
+let pwd=true;
+if (pwd) {
+    console.log('your loged in')
+}
+else {
+    console.log('your not logged in')
+}
 
+//conditional operator
+
+//ternary operator
+
+let a=90,b=30
+max = a>b?a:b;
+
+console.log(max)
 
 
 
