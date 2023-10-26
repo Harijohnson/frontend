@@ -74,7 +74,7 @@ typeof function
 
 //Get a random character 
 function rand(){
-    ran= Math.floor(Math.random()*24)+1
+    let ran= Math.floor(Math.random()*24)+1
     return String.fromCharCode(ran+97)
 }
 
@@ -82,8 +82,8 @@ function rand(){
 
 var name='harikrishnan'
 function rand(name){
-    len=name.length
-    ran= Math.floor(Math.random()*len)+1
+    let len=name.length
+    let ran= Math.floor(Math.random()*len)+1
     return String.fromCharCode(ran+97)
 }
 
