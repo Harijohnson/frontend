@@ -1,0 +1,11 @@
+function count(){
+
+    let words = document.getElementById("textarea").value;
+    // console.log(words);
+    let count = words.split(" ")
+    count = count.length
+    console.log(count)
+    let result = document.getElementById("result")
+    result.innerHTML = count, ' Total words'
+    return  result
+}
