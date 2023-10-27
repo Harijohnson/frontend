@@ -34,3 +34,40 @@ console.log(item['price'])  //price =12
 item['size']=13  //change  the size of the product
 
 
+
+
+
+let user ={
+    user_name : 'hari',
+    email:'hari@gmail.com',
+    password:'123445678',
+    det(){
+        console.log('new things');
+    }
+}
+
+console.log(user) //
+
+user.det()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
