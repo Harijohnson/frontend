@@ -1,32 +1,32 @@
+let arr= [2,33,5,6,7,977,5,4,4]
 
-let hex = [0,1,2,3,4,5,6,7,8,9,'A','B','C','D','E','F']
-let code= document.querySelector('#colorcode')
-let click_me= document.querySelector('#clic')
-click_me.addEventListener('click',change)   
-
-function change(){
-    let col= document.querySelector('#clic')
-    // console.log('your good');
-    let body= document.querySelector('body')
-    // let colorGenarator = `#${randonColor()}${randonColor()}${randonColor()}${randonColor()}${randonColor()}${randonColor()}`
-    let hexDec ='#'
-    for (let i=1; i<=6; i++){
-        hexDec += randonColor()
+// normal function call
+let  result = function addSum(arr){
+    sum=0
+    for (let val of arr){
+        sum+=val
     }
-
-    // console.log('hexDec ' , hexDec)
-
-    let hexDecHtml = document.querySelector('#colorcode')
-    hexDecHtml.innerHTML= hexDec
-    // hexDecHtml.innerHTML= colorGenarator
-    
-    body.style.backgroundColor=hexDec
-    // body.style.backgroundColor=colorGenarator
+    return sum
 }
-function randonColor(){
-    let colorcode   = Math.floor(Math.random()*16);
-    return hex[colorcode]
+console.log(result(arr))
+
+//aerow functions
+let resultSum = (arr) => {  // asign to varible and remove the function key word in this statement
+    sum=0
+    for (let val of arr){
+        sum+=val
+    }
+    return sum
 }
 
-//let colorGenarator = `#${randonColor()}${randonColor()}${randonColor()}${randonColor()}${randonColor()}${randonColor()}`
-//console.log(colorGenarator)
+console.log(resultSum(arr))   // call the function by object with arguments 
+
+
+// area of circle pi r2  or pi r squre 
+var area = r  => Math.PI*r*r    
+//above is function an d function call if the function has only one paramate eans 
+// ther is no need for => {}  no => () in function calling statement
+
+console.log(area(2))
+
+
